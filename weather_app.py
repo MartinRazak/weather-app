@@ -1,8 +1,14 @@
 import tkinter as tk
 from tkinter import ttk
 import requests
+import os
+from dotenv import load_dotenv
 
-api_key = "cbbcee4ec9745cbcf38e772b52daae49"
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+
+api_key = API_KEY
 
 # --- Logic ---
 
