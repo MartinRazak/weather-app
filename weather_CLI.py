@@ -28,12 +28,12 @@ print(f"Humidity: {humidity}%")
 print(f"Condition: {weather}")
 
 # Small feature: Weather advice
-print("\nAdvice:")
-if "rain" in weather.lower():
-    print("🌧️ Don't forget your umbrella!")
-elif temp < 10:
-    print("🧥 It's cold outside. Wear a jacket!")
-elif temp > 30:
-    print("🥵 Stay hydrated and avoid the midday sun.")
-else:
-    print("😊 The weather looks pleasant. Have a great day!")
+# print("\nAdvice:")
+# if "rain" in weather.lower():
+#     print("🌧️ Don't forget your umbrella!")
+# elif temp < 10:
+#     print("🧥 It's cold outside. Wear a jacket!")
+# elif temp > 30:
+#     print("🥵 Stay hydrated and avoid the midday sun.")
+# else:
+#     print("😊 The weather looks pleasant. Have a great day!")
