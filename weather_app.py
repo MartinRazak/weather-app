@@ -25,8 +25,9 @@ def get_weather():
 
     temp = data["main"]["temp"]
     condition = data["weather"][0]["description"]
+    humidity = data["main"]["humidity"]
 
-    result_label.config(text=f"{temp}°C, {condition}")
+    result_label.config(text=f"{temp}°C, {condition}, {humidity}% humidity")
 
 # --- User interface ---
 
