@@ -19,6 +19,7 @@ A simple desktop weather application I built with python, tkinter and the OpenWe
 - Search weather by city name
 - Displays current temperature in Celsius (°C)
 - Displays current conditions
+- Added humidity indicator in GUI
 ---
 
 ## Technologies Used
