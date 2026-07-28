@@ -20,6 +20,7 @@ A simple desktop weather application I built with python, tkinter and the OpenWe
 - Displays current temperature in Celsius (°C)
 - Displays current conditions
 - Added humidity indicator in GUI
+- Formatting changes
 ---
 
 ## Technologies Used
