@@ -25,15 +25,15 @@ weather = data["weather"][0]["description"]
 print(f"\nWeather in {city.title()}:")
 print(f"Temperature: {temp} °C")
 print(f"Humidity: {humidity}%")
-print(f"Condition: {weather}")
+print(f"Conditions: {weather}")
 
 # Small feature: Weather advice
 # print("\nAdvice:")
 # if "rain" in weather.lower():
-#     print("🌧️ Don't forget your umbrella!")
+#     print("It's rainy. Don't forget your umbrella!")
 # elif temp < 10:
-#     print("🧥 It's cold outside. Wear a jacket!")
+#     print("It's cold outside. Wear a jacket!")
 # elif temp > 30:
-#     print("🥵 Stay hydrated and avoid the midday sun.")
+#     print("Stay hydrated and avoid the midday sun.")
 # else:
 #     print("😊 The weather looks pleasant. Have a great day!")
